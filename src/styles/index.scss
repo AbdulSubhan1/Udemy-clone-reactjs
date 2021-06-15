@@ -1,0 +1,29 @@
+@import "../components/navbar/_Navbar.scss";
+@import "../components/billboard/_Billboard.scss";
+@import "../components/explorer/_Explorer.scss";
+@import "../components/explorer/studentsViewing/_StudentViewing.scss";
+@import "../components/explorer/category/_Category.scss";
+@import "../components/explorer/trandingTopics/_TrandingTopics.scss";
+@import "../components//explorer//nonStudentCatalog/_StudentCatalog.scss";
+@import "../components/explorer/partner/_Partners.scss";
+@import "../components/explorer/nonStudentCatalog/ufbStudentcatalog/_UfbStudentCatalog.scss";
+@import "../components/explorer/userStories/_UserStory.scss";
+@import "../components/footer/_Footer.scss";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #3c3b37;
+}
+
+.tag {
+  font-weight: bold;
+  width: max-content;
+  padding: 3px;
+  background-color: #ffe799;
+  border-radius: 5px;
+}
+.rating {
+  color: #be5a0e;
+  font-weight: bold;
+}

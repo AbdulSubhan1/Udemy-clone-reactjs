@@ -1,0 +1,39 @@
+.ufb-student-catalog-container {
+  margin-top: 2rem;
+  height: 25rem;
+  .ufb-student-catalog-wrapper {
+    position: relative;
+    bottom: -2.3rem;
+    padding: 1.3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    background-color: #003640;
+  }
+  .ufb-catalog-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 30rem;
+  }
+  .ufb-catalog-img {
+    margin-left: 2rem;
+
+    img {
+      width: 100%;
+    }
+  }
+  .ufb-catalog-content {
+    width: 43%;
+    h2 {
+      color: white;
+    }
+    p {
+      color: white;
+      margin: 1rem 0;
+      line-height: 1.5rem;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.tranding-topics-section {
+  margin-top: 2.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.tranding-topics-headings {
+  margin-bottom: 1rem;
+}
+.tranding-topics-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1.4rem;
+  .topics-wrapper {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    p {
+      color: gray;
+      margin-top: 0.5rem;
+    }
+  }
+}
+.heading-primary {
+  color: #2896a9;
+}
+.heading-primary:hover {
+  color: #0f7c90;
+}

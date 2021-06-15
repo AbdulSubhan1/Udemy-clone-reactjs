@@ -1,0 +1,70 @@
+[
+  {
+    "category": "Development",
+    "topics": [
+      {
+        "title": "Python",
+        "no_students": "27,959,127 students"
+      },
+      {
+        "title": "Web Development",
+        "no_students": "9,211,880 students"
+      },
+      {
+        "title": "Machine Learning",
+        "no_students": "5,687,396 students"
+      }
+    ]
+  },
+  {
+    "category": "Business",
+    "topics": [
+      {
+        "title": "Financial Analysis",
+        "no_students": "1,045,673 students"
+      },
+      {
+        "title": "SQL",
+        "no_students": "4,074,132 students"
+      },
+      {
+        "title": "PMP",
+        "no_students": "1,359,882 students"
+      }
+    ]
+  },
+  {
+    "category": "IT & Software",
+    "topics": [
+      {
+        "title": "AWS Certification",
+        "no_students": "4,286,036 students"
+      },
+      {
+        "title": "Ethical Hacking",
+        "no_students": "8,637,537 students"
+      },
+      {
+        "title": "Cyber Security",
+        "no_students": "3,118,959 students"
+      }
+    ]
+  },
+  {
+    "category": "Design",
+    "topics": [
+      {
+        "title": "Photoshop",
+        "no_students": "9,398,065 students"
+      },
+      {
+        "title": "Graphic Design",
+        "no_students": "2,709,539 students"
+      },
+      {
+        "title": "Drawing",
+        "no_students": "2,149,984 students"
+      }
+    ]
+  }
+]

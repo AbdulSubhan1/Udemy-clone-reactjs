@@ -1,0 +1,35 @@
+.student-catalog-container {
+  margin-top: 2rem;
+  height: 25rem;
+  .student-catalog-wrapper {
+    position: relative;
+    bottom: -2.3rem;
+    padding: 1.3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    background-color: rgb(243, 242, 242);
+  }
+  .catalog-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 30rem;
+  }
+  .catalog-img {
+    margin-right: 2rem;
+
+    img {
+      width: 100%;
+    }
+  }
+  .catalog-content {
+    width: 43%;
+    p {
+      margin: 1rem 0;
+      line-height: 1.5rem;
+    }
+  }
+}

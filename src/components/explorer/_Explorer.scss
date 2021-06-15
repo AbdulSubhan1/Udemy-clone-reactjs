@@ -1,0 +1,75 @@
+.explorer-container {
+  padding: 0 1.4rem;
+}
+
+.explore-nav {
+  ul {
+    display: flex;
+    justify-content: start;
+  }
+  li {
+    margin-right: 15px;
+    font-weight: bolder;
+  }
+}
+
+.course-container {
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 25px;
+  .course-container-intro-card {
+    display: flex;
+    justify-content: space-between;
+
+    .course-container-intro {
+      width: 50%;
+    }
+    p {
+      // width: 50%;
+      overflow: hidden;
+      margin: 10px 0;
+      line-height: 1.5rem;
+    }
+
+    img {
+      width: 160px;
+      height: 160px;
+      margin: 0 30px;
+    }
+  }
+}
+
+.cards-container {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  .cards {
+    margin-top: 20px;
+    margin-right: 15px;
+    width: 20%;
+    height: 300px;
+
+    .cards-img {
+      width: 100%;
+      border: 1px solid lightgrey;
+      border-radius: 4px;
+      img {
+        width: 100%;
+        z-index: 1;
+      }
+    }
+    .cards-img:hover {
+      opacity: 0.8;
+    }
+    h3 {
+      font-size: 1.2rem;
+      margin: 5px 0;
+    }
+    p {
+      margin-top: 4px;
+    }
+    h4 {
+      margin: 5px 0;
+    }
+  }
+}

@@ -1,0 +1,103 @@
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.gradient-line {
+  width: 100%;
+  height: 0.4rem;
+  background: linear-gradient(
+    90deg,
+    rgb(100, 91, 83) 0%,
+    rgb(235, 82, 82) 18.23%,
+    rgb(247, 143, 47) 34.37%,
+    rgb(244, 193, 81) 48.96%,
+    rgb(82, 187, 118) 66.15%,
+    rgb(38, 165, 215) 82.29%,
+    rgb(224, 105, 183) 100%
+  );
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 0 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      margin-left: 1rem;
+    }
+
+    li:hover {
+      color: #0f7c90;
+    }
+  }
+}
+
+.logo {
+  width: 96px;
+  aspect-ratio: 96/28;
+}
+
+.search-box {
+  border: 0.5px solid gray;
+  background-color: #fbfbf8;
+  padding: 8px 1rem;
+  margin: 1rem 0;
+  width: 35vw;
+  border-radius: 25px;
+
+  input[type="search"] {
+    border: none;
+    margin: 8px;
+
+    background-color: inherit;
+    width: 85%;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 12px;
+  font-weight: 700;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.login-btn {
+  color: #2896a9;
+  background-color: transparent;
+  border: 1px solid #2896a9;
+}
+.signup-btn {
+  color: white;
+  background-color: #2896a9;
+  border: 2px;
+}
+.lang-btn {
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+.login-btn:hover {
+  color: #0f7c90;
+  background-color: transparent;
+  border: 1px solid #0f7c90;
+}
+.signup-btn:hover {
+  background-color: #0f7c90;
+}
